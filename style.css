@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #0f172a;
+  color: #cbd5e1;
+  line-height: 1.6;
+  padding: 30px 16px;
+}
+
+/* Sekce stránky */
+.header-section,
+.content-section,
+.footer-section {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.header-section {
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+.content-section {
+  background-color: #1e293b;
+  padding: 36px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.footer-section {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #64748b;
+  padding: 24px 0;
+}
+
+/* Typografie */
+h1 {
+  font-size: 2.2rem;
+  color: #f8fafc;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #38bdf8;
+  margin: 28px 0 12px 0;
+}
+
+p {
+  margin-bottom: 14px;
+  font-size: 1rem;
+}
+
+/* Třídy a zvýraznění */
+.highlight {
+  background-color: rgba(56, 189, 248, 0.1);
+  border-left: 4px solid #38bdf8;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+.accent-word {
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+/* Obrázek s rámečkem */
+.media-box {
+  margin: 20px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid #475569;
+  border-radius: 10px;
+}
+
+/* Seznam */
+ul {
+  margin: 10px 0 20px 24px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Tabulka */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  background-color: #0f172a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+th {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Dělící čára */
+hr {
+  border: none;
+  border-top: 1px solid #334155;
+  margin: 30px 0 20px 0;
+}
+
+/* Formulář */
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #e2e8f0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #0f172a;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  color: #f8fafc;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+button[type="submit"] {
+  background: linear-gradient(135deg, #0284c7, #2563eb);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
